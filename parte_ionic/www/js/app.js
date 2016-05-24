@@ -1,3 +1,4 @@
+//url base
 var _base = "http://localhost:3000";
 
 angular.module('examenionic', ['ionic', 'examenionic.controllers', 'examenionic.services','examenionic.routes'])

@@ -34,13 +34,13 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/parte_ionic/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15789473">
-              <caret line="133" column="97" selection-start-line="133" selection-start-column="97" selection-end-line="133" selection-end-column="97" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
               <folding>
-                <element signature="e#1595#1677#0" expanded="false" />
-                <element signature="e#2034#2094#0" expanded="false" />
-                <element signature="e#2178#2244#0" expanded="false" />
-                <element signature="e#3845#3887#0" expanded="false" />
+                <element signature="e#1606#1688#0" expanded="false" />
+                <element signature="e#2045#2105#0" expanded="false" />
+                <element signature="e#2189#2255#0" expanded="false" />
+                <element signature="e#3856#3898#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -527,10 +527,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
           <folding>
-            <element signature="e#1595#1677#0" expanded="false" />
-            <element signature="e#2034#2094#0" expanded="false" />
-            <element signature="e#2178#2244#0" expanded="false" />
-            <element signature="e#3845#3887#0" expanded="false" />
+            <element signature="e#1606#1688#0" expanded="false" />
+            <element signature="e#2045#2105#0" expanded="false" />
+            <element signature="e#2189#2255#0" expanded="false" />
+            <element signature="e#3856#3898#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -878,13 +878,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/parte_ionic/www/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15789473">
-          <caret line="133" column="97" selection-start-line="133" selection-start-column="97" selection-end-line="133" selection-end-column="97" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
           <folding>
-            <element signature="e#1595#1677#0" expanded="false" />
-            <element signature="e#2034#2094#0" expanded="false" />
-            <element signature="e#2178#2244#0" expanded="false" />
-            <element signature="e#3845#3887#0" expanded="false" />
+            <element signature="e#1606#1688#0" expanded="false" />
+            <element signature="e#2045#2105#0" expanded="false" />
+            <element signature="e#2189#2255#0" expanded="false" />
+            <element signature="e#3856#3898#0" expanded="false" />
           </folding>
         </state>
       </provider>
