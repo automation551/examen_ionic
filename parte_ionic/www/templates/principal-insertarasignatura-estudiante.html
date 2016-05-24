@@ -1,0 +1,11 @@
+<ion-view view-title="Insertar asignatura">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="asignatura in asignaturas">
+        <div class="datosPerfil">
+          <a ng-click="insertarasig(asignatura._id)"><p><strong>Nombre: </strong>{{asignatura.nombre}}</p></a>
+          </strong></p>
+        </div>
+      </ion-item>
+  </ion-content>
+</ion-view>

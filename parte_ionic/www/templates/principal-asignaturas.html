@@ -1,0 +1,19 @@
+<ion-view view-title="Asignaturas">
+  <ion-content>
+    <div class="list list-inset">
+      <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="text" placeholder="Busca una asignatura" ng-model="searchText">
+      </label>
+    </div>
+    <ion-list show-filter="true">
+      <ion-item ng-repeat="asignatura in asignaturas | orderBy:'asignatura.nombre' | filter:searchText">
+        <div class="datosPerfil">
+          <p ><strong>Nombre: </strong> {{asignatura.nombre}}</p>
+          <p ng-repeat="estudiante in asignatura.estudiantes"><strong>
+            <a ng-click="perfil(estudiante._id)">{{estudiante.nombre}}</a>
+          </strong></p>
+        </div>
+      </ion-item>
+  </ion-content>
+</ion-view>

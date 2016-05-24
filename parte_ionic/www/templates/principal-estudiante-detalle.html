@@ -1,0 +1,13 @@
+<ion-view view-title="Detalle estudiante">
+  <ion-content class="has-header">
+    <ion-list>
+      <ion-item ng-model="estudiante">
+        <div class="datosPerfil">
+          <p><strong>Nombre: </strong>{{estudiante.nombre}}</p>
+          <p><strong>Direccion: </strong>{{estudiante.direccion}}</p>
+          <p ng-repeat="obj in estudiante.telefonos"><strong>{{obj.nombre}}: </strong>{{obj.value}}</p>
+        </div>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

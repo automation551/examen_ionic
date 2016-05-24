@@ -1,0 +1,23 @@
+<ion-view view-title="Estudiantes">
+  <ion-content class="has-header">
+
+    <ion-list>
+      <ion-item ng-repeat="estudiante in estudiantes">
+        <div class="datosPerfil">
+          <p><strong>Nombre: </strong>{{estudiante.nombre}}</p>
+          <p><strong>Direccion: </strong>{{estudiante.direccion}}</p>
+          <p ng-repeat="obj in estudiante.telefonos"><strong>{{obj.nombre}}: </strong>{{obj.value}}</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="buttonsPerfil">
+          <button id="buttoninsertar" class="button button-positive " ng-click="insertarestudiante(estudiante._id,estudiante.nombre)">
+            Insertar
+          </button>
+
+        </div>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
